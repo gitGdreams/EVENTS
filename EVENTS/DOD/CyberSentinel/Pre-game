@@ -51,7 +51,7 @@ Reverse Engineering:
 Tools: Ghidra, IDA Pro, Radare2, OllyDbg, Binary Ninja
 
 =========================================================================================
-If the target has no protection and the IP is given:
+TOPPO:
 
 nmap [targetIP] -v -Pn -p-
   port 80
@@ -83,6 +83,9 @@ open all txt files that you find > cat file.txt
 use python whatever version found, we'll use 2 > python2 -c 'import pty;pty.spawn("/bin/sh")' > 
 if you see the #, you are now root
 ------------------------------------------------------------------------------------------------
+
+===================================================================================
+DC-1:
 
 
 
