@@ -1,0 +1,56 @@
+What measures are set to protect the participants?
+What are the rules of engagement?
+What tools are allowed and not allowed?
+
+
+
+
+
+TO DO:
+Set up a virtual box dedicated for this event
+Buy VPN maybe
+Use TOR maybe
+
+
+===================================================================
+Reconnaissance:
+Tools: Nmap, Masscan, Recon-ng, Shodan, Whois
+Payload: nmap -sS -T2 --scan-delay 5s --randomize-hosts --randomize -D 10.0.0.1,10.0.0.2,10.0.0.3  --mtu 24 --source-port 1024-65535 <target>
+
+
+Information Gathering:
+Tools: Dirb, Dirsearch, Gobuster, Nikto, Wfuzz
+dirb https://target.com -r -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36" -k
+
+
+Vulnerability Analysis:
+Tools: Nessus, OpenVAS, Metasploit, Nmap scripting engine, OWASP ZAP
+nmap -sS -sV -p- --script vuln <target>
+
+
+Exploitation:
+Tools: Metasploit Framework, ExploitDB, SQLMap, Hydra, Burp Suite
+
+Post-Exploitation:
+Tools: Mimikatz, Empire, PowerSploit, Metasploit post modules, BeEF
+
+Privilege Escalation:
+Tools: LinEnum, WinPEAS, Windows Exploit Suggester, Linux Exploit Suggester, GTFOBins
+
+Network Analysis:
+Tools: Wireshark, Tcpdump, Tshark, Zeek (formerly Bro), Netcat
+
+Web Application Testing:
+Tools: OWASP ZAP, Burp Suite, sqlmap, Nikto, Acunetix
+
+Cryptography:
+Tools: OpenSSL, Cryptool, John the Ripper, Hashcat, Cryptohaze
+
+Reverse Engineering:
+Tools: Ghidra, IDA Pro, Radare2, OllyDbg, Binary Ninja
+
+
+
+
+
+
