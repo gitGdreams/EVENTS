@@ -77,6 +77,8 @@ use mawk > mawk 'BEGIN {system("/bin/sh")}' > if you see that pound '#' sign, yo
 
 navigate throught it > ls > cd /root > ls > keep using ls and cd till you find the juice
 
+open all txt files that you find > cat file.txt
+
 
 
 
