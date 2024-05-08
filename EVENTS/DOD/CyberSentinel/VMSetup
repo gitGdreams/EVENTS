@@ -5,10 +5,10 @@ Name: kali
 Password: root
 
 Software needed:
-Chrome
 ZAP
 NMAP
 dirb
+nessus
 
 # Download ZAP
 https://www.zaproxy.org/download/
