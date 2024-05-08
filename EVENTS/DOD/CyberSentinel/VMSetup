@@ -10,9 +10,7 @@ NMAP
 dirb
 nessus(Maybe?)
 Metadata - exiftool(-k).exe [file]
-Program that can help in steganography
-
-I need a find/grep command/script that can find specific extensions for me.
+mountain_shocker.py script that can find specific extensions for me.
 
 !!! DON'T FORGET THIS "chmod +x ./pythonScript.py"  , you always forget this !!!
 
