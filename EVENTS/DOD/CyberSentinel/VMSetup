@@ -1,2 +1,11 @@
 We Shall use Kali for this event and download hacking tools
 
+Fake Account
+Name: kali
+Password: root
+
+# Download ZAP
+https://www.zaproxy.org/download/
+
+Install and Configure ZAP - https://www.zaproxy.org/getting-started/
+
