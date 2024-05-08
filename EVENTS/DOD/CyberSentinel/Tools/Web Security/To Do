@@ -17,4 +17,42 @@ XSStrike: Finally, use XSStrike to specifically target and exploit Cross-Site Sc
 ====================
 
 
+Step-by-step guide on how to use OWASP ZAP, Burp Suite, Nikto, SQLMap, and XSStrike against a target website to find flags:
+
+Identify the Target Website:
+  Choose the website you want to perform security testing on. Make sure you have permission to test it; otherwise, it may be illegal and unethical.
+OWASP ZAP:
+  Launch OWASP ZAP.
+  Configure your browser to use ZAP as a proxy.
+  Navigate to Tools > Options > Local Proxy and note the address and port (usually 127.0.0.1:8080).
+  In your browser settings, set the proxy to manual and input the address and port from ZAP.
+  Visit the target website and let ZAP intercept the traffic.
+  Explore ZAP's features such as Active Scan, Spider, and Fuzzer to identify vulnerabilities like XSS (Cross-Site Scripting), SQL Injection, and more.
+Burp Suite:
+  Launch Burp Suite.
+  Configure your browser to use Burp as a proxy.
+  Similar to ZAP, navigate to Proxy > Options and note the proxy address and port (usually 127.0.0.1:8080).
+  Set your browser's proxy settings to manual and input the address and port from Burp.
+  Browse the target website and let Burp intercept the traffic.
+  Use Burp's various tools such as Scanner, Repeater, and Intruder to identify vulnerabilities and test for exploits.
+Nikto:
+  Open a terminal window.
+  Run Nikto against the target website using the command: nikto -h <target_website>
+  Nikto will scan the website for known vulnerabilities and misconfigurations, presenting the results in the terminal.
+SQLMap:
+  If you find a form or URL parameter susceptible to SQL injection in ZAP or Burp, copy the vulnerable parameter.
+  Open a terminal window.
+  Run SQLMap against the target URL with the vulnerable parameter using the command: sqlmap -u "<vulnerable_url>" --data="<vulnerable_parameter>"
+  SQLMap will attempt to exploit SQL injection vulnerabilities and retrieve data from the database.
+XSStrike:
+  Identify potential XSS vulnerabilities using ZAP, Burp, or manual testing.
+  Open a terminal window.
+  Run XSStrike against the target URL using the command: python3 xsstrike.py -u <target_url>
+  XSStrike will analyze the website for XSS vulnerabilities and provide details on how to exploit them.
+Flag Identification:
+  Throughout the testing process, keep an eye out for flags, which could be text strings or specific content hidden within the website or its responses.
+  Flags are often placed intentionally by administrators or developers to simulate real-world challenges.
+Documentation:
+  Document your findings, including vulnerabilities discovered and any flags found.
+  Provide detailed reports to the website owner or relevant authorities if you're performing security testing ethically.
 
