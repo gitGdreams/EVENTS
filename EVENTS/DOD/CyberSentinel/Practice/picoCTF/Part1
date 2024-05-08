@@ -1,1 +1,17 @@
+=============
+Obidient CAT
+=============
+picoCTF{s4n1ty_v3r1f13d_28e8376d}
+
+========
+Mod 26
+=======
+picoCTF{next_time_I'll_try_2_rounds_of_rot13_TLcKBUdK}
+
+=============
+Python Wrangling
+============
+Had to wget locally then run the script -d 'pathfile/flag.txt.en' > then enter password
+picoCTF{4p0110_1n_7h3_h0us3_dbd1bea4}
+
 
