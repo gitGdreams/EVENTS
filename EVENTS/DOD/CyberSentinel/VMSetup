@@ -58,11 +58,7 @@ Web Security:
   Nikto
   SQLMap
   XSStrike
-
-
-
-
-
+====================================================
 Gain Access
 sudo ./Responder.py -I [interface]
 
