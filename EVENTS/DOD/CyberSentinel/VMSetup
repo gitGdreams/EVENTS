@@ -27,4 +27,53 @@ Once the installation is complete, launch ZAP and read the license terms. Click 
 
 !!!   ONLY use ZAP to attack an application you have permission to test with an active attack  !!!
 
+=======================================================================
+Forensics:
+  Autopsy
+  Volatility
+  Foremost
+  Sleuth Kit
+  Wireshark (for network forensics)
+Malware/ Reverse Engineering:
+  IDA Pro
+  Ghidra
+  Radare2
+  OllyDbg
+  Immunity Debugger
+Networking & Reconnaissance:
+  Nmap
+  Wireshark
+  Metasploit
+  Burp Suite
+  Shodan
+Open-Source Intelligence Gathering (OSINT):
+  Maltego
+  SpiderFoot
+  theHarvester
+  Recon-ng
+  OSINT Framework
+Web Security:
+  Burp Suite
+  OWASP ZAP
+  Nikto
+  SQLMap
+  XSStrike
+
+
+
+
+
+Gain Access
+sudo ./Responder.py -I [interface]
+
+
+
+
+
+
+
+
+
+
+
 
