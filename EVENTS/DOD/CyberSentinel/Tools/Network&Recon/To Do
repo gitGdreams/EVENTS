@@ -1,0 +1,34 @@
+Step 1: Information Gathering
+  Identify the Target: Determine the target website or IP address you want to assess.
+  DNS Enumeration: Use tools like nslookup, dig, or host to gather information about the target's DNS records.
+  Whois Lookup: Perform a whois lookup to gather details about the domain registration.
+  Subdomain Enumeration: Utilize tools like Sublist3r, Amass, or OWASP Amass to find subdomains associated with the target.
+
+Step 2: Port Scanning with Nmap
+  Initial Scan: Run an initial Nmap scan (nmap -sS -T4 -A -v <target>) to identify open ports, services, and operating system information.
+  Full Port Scan: Perform a comprehensive port scan (nmap -p- -T4 <target>) to scan all 65535 TCP ports for potential entry points.
+
+Step 3: Packet Analysis with Wireshark
+  Capture Traffic: Use Wireshark to capture network traffic related to the target website.
+  Analyze Packets: Filter packets based on IP addresses, protocols, or keywords related to the target. Look for any anomalies or suspicious activities.
+
+Step 4: Vulnerability Assessment with Metasploit
+  Search for Vulnerabilities: Use Metasploit's search command to find modules targeting the discovered services and versions.
+  Exploit Potential Vulnerabilities: Launch exploits against identified vulnerabilities to gain access or gather further information about the target system.
+
+Step 5: Web Application Testing with Burp Suite
+  Proxy Setup: Configure your browser to use Burp Suite as a proxy.
+  Traffic Interception: Intercept and modify HTTP requests/responses to analyze and manipulate web application behavior.
+  Active Scanning: Use Burp's scanner to automatically identify common vulnerabilities like SQL injection, XSS, CSRF, etc.
+  Manual Testing: Perform manual testing by exploring different functionalities, inputs, and parameters for potential security flaws.
+
+Step 6: Search for Publicly Available Information with Shodan
+  Search for Target: Enter the target's IP address or domain name in Shodan's search bar.
+  Analyze Results: Review the information gathered by Shodan, including open ports, services, banners, and potential vulnerabilities.
+
+Step 7: Flag Extraction
+  Analyze Findings: Review the results from all tools and methods to identify any flags or sensitive information.
+  Document Findings: Document your findings, including vulnerabilities discovered, potential exploits, and any flags or credentials obtained.
+  Report: Prepare a detailed report outlining the vulnerabilities, risks, and recommended mitigations for the target website.
+
+
