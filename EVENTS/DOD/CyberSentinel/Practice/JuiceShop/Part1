@@ -1,0 +1,11 @@
+Juiceshop:
+docker run -d -p 3000:3000 bkimminich/juice-shop
+http://localhost:3000
+
+=================================================
+
+ZAP it RIGHT AWAY!!!!!!!
+
+dirb [http://url] '[pathFile]'
+
+
