@@ -1,0 +1,20 @@
+
+OWASP Zed Attack Proxy (ZAP): Start with ZAP as it's a versatile open-source tool designed specifically for web application security testing. 
+  It can help you identify a wide range of vulnerabilities, including injection flaws, broken authentication, and sensitive data exposure.
+
+Burp Suite: Use Burp Suite next, as it provides comprehensive scanning capabilities and allows for manual testing through its proxy functionality. 
+  You can use it to further analyze the application's behavior and detect vulnerabilities that ZAP might have missed.
+
+Nikto: After ZAP and Burp Suite, run Nikto to perform a quick scan for common vulnerabilities and misconfigurations on the web server. 
+  It can identify issues such as outdated software versions, insecure configurations, and potentially dangerous files.
+
+SQLMap: If you suspect SQL injection vulnerabilities based on the initial scans, use SQLMap to automate the detection and exploitation of these vulnerabilities. 
+  SQLMap is highly effective at extracting data from databases and demonstrating the impact of SQL injection flaws.
+
+XSStrike: Finally, use XSStrike to specifically target and exploit Cross-Site Scripting (XSS) vulnerabilities. 
+  XSS vulnerabilities are prevalent in web applications and can lead to various attacks, including session hijacking and defacement.
+
+====================
+
+
+
