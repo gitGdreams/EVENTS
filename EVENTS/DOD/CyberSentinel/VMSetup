@@ -8,7 +8,11 @@ Software needed:
 ZAP
 NMAP
 dirb
-nessus
+nessus(Maybe?)
+Metadata - exiftool(-k).exe [file]
+Program that can help in steganography
+
+
 
 # Download ZAP
 https://www.zaproxy.org/download/
