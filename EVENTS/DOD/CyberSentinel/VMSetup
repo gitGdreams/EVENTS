@@ -4,8 +4,20 @@ Fake Account
 Name: kali
 Password: root
 
+Software needed:
+Chrome
+ZAP
+NMAP
+dirb
+
 # Download ZAP
 https://www.zaproxy.org/download/
 
+###     Note that ZAP requires Java 11+    ###
+
 Install and Configure ZAP - https://www.zaproxy.org/getting-started/
+Once the installation is complete, launch ZAP and read the license terms. Click Agree to finish installation
+
+!!!   ONLY use ZAP to attack an application you have permission to test with an active attack  !!!
+
 
