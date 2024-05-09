@@ -15,6 +15,20 @@ main.js looks sus > beautify the code using https://codebeautify.org/jsviewer# >
 look for score > this is what I'm looking for "path: "score-board"," > that's the beginning and by inspecting further 
 I found a lot of useful stuff.
 
+===============
+CHALLENGES
+===============
+==D1==
+=XSS=
+--DOM XSS--
+Read the tip > copy-paste in search box > easy
+Code review > remove the bypass of sanitization
+
+--Bonus Payload--
+Same as DOM XSS
+Code review > remove the bypass of sanitization
+
+=Sensitive Data Exposure=
 
 
 
