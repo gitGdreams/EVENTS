@@ -1,0 +1,12 @@
+sudo apt install dvwa
+dvwa-start
+dvwa-stop
+
+/opt/lampp/lampp start
+
+
+apt update
+apt install -y apache2 mariadb-server mariadb-client php php-mysqli php-gd libapache2-mod-php
+
+
+apt update && apt upgrade -y && apt dist-upgrade -y && apt autoremove -y
