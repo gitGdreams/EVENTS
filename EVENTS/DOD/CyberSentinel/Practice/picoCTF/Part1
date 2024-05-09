@@ -38,7 +38,7 @@ In terminal > nc mercury.picoctf.net 22902 > results looks like some type of ASC
 Online tool > https://codebeautify.org/ascii-to-text > copy and paste the output of netcat
 picoCTF{g00d_k1tty!_n1c3_k1tty!_d3dfd6df}
 
-
+ 
 
 
 
