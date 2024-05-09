@@ -1,11 +1,14 @@
 =============
 Obidient CAT
 =============
+Download,  Clear text
 picoCTF{s4n1ty_v3r1f13d_28e8376d}
 
 ========
 Mod 26
 =======
+Decrypt downloaded file with ROT13
+https://cryptii.com/pipes/rot13-decoder
 picoCTF{next_time_I'll_try_2_rounds_of_rot13_TLcKBUdK}
 
 =============
@@ -18,3 +21,48 @@ picoCTF{4p0110_1n_7h3_h0us3_dbd1bea4}
 Wave a flag
 =========
 picoCTF{b1scu1ts_4nd_gr4vy_18788aaa}
+
+============
+Information
+============
+Download > in terminal > exiftool [pathfile] > Nope
+In terminal > stegosuite > stegosuite gui > nope
+# Maybe I need to decode the license or IPTC digest, let's use cyberchef
+In terminal > cyberchef > copy&paste the lincense string > looks like it's base64 > there it is
+picoCTF{the_m3tadata_1s_modified}
+
+===============
+Nice netcat...
+==============
+In terminal > nc mercury.picoctf.net 22902 > results looks like some type of ASCII stuff
+Online tool > https://codebeautify.org/ascii-to-text > copy and paste the output of netcat
+picoCTF{g00d_k1tty!_n1c3_k1tty!_d3dfd6df}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
