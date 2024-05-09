@@ -1,0 +1,9 @@
+===Security Level Low===
+--Brute Force--
+Just guess
+admin
+password
+
+--Command Injection--
+it already has a ping command > just add the IP and include other command
+[ipaddress] && ls -la
