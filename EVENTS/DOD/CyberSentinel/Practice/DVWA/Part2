@@ -7,3 +7,14 @@ password
 --Command Injection--
 it already has a ping command > just add the IP and include other command
 [ipaddress] && ls -la
+Make sure to use command seperators:
+Windows and Unix:
+&
+&&
+|
+||
+Unix only:
+;
+\n or 0x0a
+`
+$
