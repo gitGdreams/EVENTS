@@ -10,7 +10,12 @@ sudo docker stop -t 00 [containerID]
 
 =================================================
 Look for scoreboard first
-In JS files, search "path:" > look for scoreboard > 
+In JS files, search "path:" > look for scoreboard > look at JS files >
+main.js looks sus > beautify the code using https://codebeautify.org/jsviewer# >look for "td = [{" it give a lot of links >
+look for score > this is what I'm looking for "path: "score-board"," > that's the beginning and by inspecting further 
+I found a lot of useful stuff.
+
+
 
 
 
