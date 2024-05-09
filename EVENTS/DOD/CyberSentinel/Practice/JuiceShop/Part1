@@ -48,7 +48,10 @@ comparing other images, no hashes in the working once > maybe URL encoding will 
 --Repetative Registration--
 DRY principle means Don't Repeat Yourself > register as a new user by not repeating password >
 OWASP ZAP > Break the site > right click the url in left pane then click "Break" >
-do the thing > boom!! got it.
+do the thing > boom!! got it!!!
+
+--Zero Stars--
+
 
 
 
