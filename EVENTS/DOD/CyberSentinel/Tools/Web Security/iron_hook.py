@@ -1,3 +1,5 @@
+# This is a command injection checker tool.
+
 import requests
 import argparse
 
