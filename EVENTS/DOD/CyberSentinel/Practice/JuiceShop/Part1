@@ -29,6 +29,27 @@ Same as DOM XSS
 Code review > remove the bypass of sanitization
 
 =Sensitive Data Exposure=
+--Confidential Document--
+Check "About Us" > there's a link for downloading legal.md > inspect it >
+there is > href="ftp/legal.md" > in url > [target]/ftp > Got the juice
+random downloading stuff then boom > acquisitions.md > is the confidential document
+Code review > get rid of the entire /ftp folder to prevent leakage
+In the process I solved:
+=Error Handling (Provoke an error that is neither very gracefully nor consistently handled.)=
+
+--Exposed Metrics--
+Soooo, Just tamper with url and put /metrics after the url > Solved
+Code review > app.get('/metrics' > security.isAdmin() > only admin people's eyes
+
+=Improper Input Validation=
+--Missing Encoding--
+comparing other images, no hashes in the working once > maybe URL encoding will do the job
+
+--Repetative Registration--
+DRY principle means Don't Repeat Yourself > register as a new user by not repeating password >
+OWASP ZAP > Break the site > right click the url in left pane then click "Break" >
+do the thing > boom!! got it.
+
 
 
 
