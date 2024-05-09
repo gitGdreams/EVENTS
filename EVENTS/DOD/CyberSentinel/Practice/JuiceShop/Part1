@@ -2,6 +2,12 @@ Juiceshop:
 docker run -d -p 3000:3000 bkimminich/juice-shop
 http://localhost:3000
 
+# Check container
+sudo docker stats
+
+# Stop the container
+sudo docker stop -t 00 [containerID]
+
 =================================================
 Look for scoreboard first
 In JS files, search "path:" > look for scoreboard > 
