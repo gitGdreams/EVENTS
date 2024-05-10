@@ -5,7 +5,10 @@ admin
 password
 
 --Command Injection--
-it already has a ping command > just add the IP and include other command
+it already has a ping command > just add the IP and include other command:
+windows systems ttl = 127
+unix systems ttl = 64
+
 [ipaddress] && ls -la
 Make sure to use command seperators:
 Windows and Unix:
