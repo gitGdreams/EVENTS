@@ -19,8 +19,9 @@ https://ctftime.org/writeups
 
 ------------------------------------------------------------------------------------------------------------------
 >>>>>>>>>
-Wireshark --> Strings might work too
+Wireshark
 <<<<<<<<<
+Before analyzing with wireshark try strings > then use wireshark
 Used for inspecting pcap files > be vigilant
 
 >>>>>>>>>
