@@ -15,3 +15,15 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 Content-Type: application/x-www-form-urlencoded
 
 username=admin&password=71urlkufpsdnlkadsf
+
+====================
+Don't Bump Your Head(er)
+=====================
+Upon opening the website you'll see "agent not correct" >
+inspect source code's comment > we got the first part >
+modify the User-Agent header in request > leads you to a page stating >
+Sorry, you did not come from the site "awesomesauce.com" > must be talking about referer >
+I put Referer: header with value awesomesauce.com > BOOM! > we got the flag
+
+
+
