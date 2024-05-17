@@ -18,8 +18,16 @@ CTF competition
 
 Monday winners announcement
 
+Points and deduction per difficulty
+Easy: 150
+  Deduction: 25
+Medium:200
+  Deduction: 50
+Hard: 300
+  Deduction: 75
 
-
+Flag format
+C1{th1s_1s_fl4g}
 
 
 
