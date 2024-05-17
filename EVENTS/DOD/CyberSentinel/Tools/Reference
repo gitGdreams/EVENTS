@@ -16,7 +16,7 @@
 
 other tools:
 string
-postman/curl
+postman/curl/wget
 
 Writeups
 https://ctftime.org/writeups
